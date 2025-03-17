@@ -1,0 +1,23 @@
+# Diretórios e arquivos criados pelo Terraform
+.terraform/           # Diretório onde o Terraform armazena os estados e os plugins
+*.tfstate             # Arquivos de estado do Terraform (contêm informações sensíveis)
+*.tfstate.backup      # Backup de arquivos de estado
+
+# Arquivos temporários de execução
+*.tfvars              # Arquivos de variáveis (se contiverem dados sensíveis, como credenciais)
+override.tf           # Arquivo de sobrescrita (geralmente usado para ambientes específicos)
+override.tf.json      # Arquivo de sobrescrita no formato JSON
+.terraform.lock.hcl    # Arquivo de lock do Terraform (não versionado para garantir que ele seja gerado por cada desenvolvedor)
+
+# Arquivos específicos de IDEs
+.vscode/              # Diretório de configurações do Visual Studio Code
+.idea/                # Diretório de configurações do IntelliJ/PyCharm
+*.iml                 # Arquivos de projeto do IntelliJ/PyCharm
+
+# Arquivos temporários de editores de texto
+*.swp                 # Arquivos de swap do vim
+*.swo                 # Arquivos de swap do vim
+
+# Arquivos específicos de sistemas operacionais
+.DS_Store             # Arquivo de metadados do macOS
+Thumbs.db             # Arquivo de miniaturas do Windows
