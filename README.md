@@ -1,6 +1,6 @@
 # Terraform Infrastructure as Code (IaC)
 
-### Este repositório contém a infraestrutura como código (IaC) usando Terraform para gerenciar recursos em nuvem, com foco principal na AWS. Ele organiza a criação de diferentes recursos, como buckets S3, instâncias EC2, clusters EKS, entre outros, de forma modular e reutilizável.
+### Este repositório contém a infraestrutura como código (IaC) usando Terraform para gerenciar recursos em nuvem, com foco principal na AWS. Ele organiza a criação de diferentes recursos de forma modular e reutilizável.
 
 A estrutura do projeto foi pensada para ser escalável e fácil de entender, permitindo que diferentes ambientes (como desenvolvimento, staging e produção) possam ser configurados separadamente.
 
